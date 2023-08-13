@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 500px;
+}
+
+.container label {
+    margin: 3px auto;
+}
+.container input{
+    width: 90%;
+    margin: 0px auto 5px;
+}
+
+.container :last-child {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 162, 255);
+    border: none;
+    width: 25%;
+}
